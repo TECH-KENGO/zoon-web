@@ -1,0 +1,99 @@
+#contact-space {
+  margin : 50px auto;
+  border : 1px solid rgb(220,220,220);
+  width : 640px;
+  height : 370px;
+}
+
+#contact-space th {
+  width : 200px;
+  background-color : rgb(238,238,238);
+  border-bottom : 1px dotted rgb(220,220,220);
+  text-align : left;
+  font-weight : bold;
+  font-size : 15px;
+  vertical-align : top;
+  padding : 17px;
+}
+
+#contact-space td {
+  background-color : rgb(255,255,255);
+  border-bottom : 1px dotted rgb(220,220,220);
+  padding : 10px;
+}
+
+#message-area {
+  width : 440px;
+  height: 200px;
+  font-size: 17px;
+  border : 1px solid rgb(220,220,220);
+  resize: none;
+}
+
+.input-name {
+  width : 200px;
+  height : 30px;
+  font-size: 16px;
+  padding-left : 10px;
+}
+
+.input-name::placeholder {
+  font-weight:bold;
+  font-size: 16px;
+  color: rgb(204,204,204);
+}
+
+.select-form {
+  position : relative;
+  display : inline-block;
+}
+
+.select-choice {
+  width : 200px;
+  height : 28px;
+  padding-left : 10px;
+  font-size : 13px;
+  cursor : pointer;
+  border-radius : 5px;
+  background : linear-gradient(rgb(214,214,214), rgb(234,234,234));
+}
+
+.select-triangle {
+  position : absolute;
+  width : 0;
+  height : 0;
+  top : 10px;
+  right : 9px;
+  border-top : 8px solid rgb(0,0,0);
+  border-right : 6px solid transparent;
+  border-bottom : 10px solid transparent;
+  border-left : 6px solid transparent;
+  pointer-events: none;
+}
+
+select {
+  -webkit-appearance : none;
+  -moz-appearance : none;
+}
+
+.submit-button {
+  display : flex;
+  width : 280px;
+  height : 60px;
+  margin : 0 auto 51px;
+  color : black;
+  justify-content : center;
+  padding : 0;
+  line-height : 60px;
+  text-decoration : none;
+  background : linear-gradient(to bottom, rgb(246,188,56), rgb(238,132,48));
+  border-radius : 5px;
+  font-size : 25px;
+  font-weight : bold;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background : rgb(249,197,0);
+  transition : 0.3s;
+}
