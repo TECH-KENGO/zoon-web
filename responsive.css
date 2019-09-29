@@ -1,0 +1,157 @@
+@media (max-width:480px) {
+
+.title-logo img {
+  width: 90%;
+}
+
+/* 新着情報 */
+.main-container {
+  width: 100%;
+  padding: 0 15px;
+}
+.news-sentences {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 10px;
+}
+
+/* ナビゲーション */
+.container{
+  flex-wrap: wrap;
+  height: auto;
+}
+.container > li {
+  font-size: 18px;
+}
+.container > li > a {
+  padding: 10px 30px;
+}
+.pull-down-list {
+  top:40px;
+}
+.pull-down-list > li {
+  overflow: hidden;
+}
+
+/* 動物の写真 */
+.subheading {
+  margin: 10px 0 10px 0;
+}
+.pic-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.pic-images {
+  width: 50%;
+  padding: 15px;
+}
+.pic-images > img {
+  width: 100%;
+  height: 100%;
+}
+.pic-images > figcaption {
+  font-size: 17px;
+}
+
+/* 写真スポット */
+.photo-spot {
+  border: 1px solid rgb(220,220,220);
+}
+
+.photo-spot th,
+.photo-spot td,
+.photo-spot tr {
+  display: block;
+  border: none;
+}
+
+.photo-spot tr td > a{
+  font-size: 16px;
+}
+
+/* ネコ科ページ */
+
+#cat {
+  max-width: 340px;
+  width: 80%;
+}
+
+.cat-title {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.cats-container {
+  display: block;
+  text-align: center;
+}
+
+.cats-container > img {
+  width: 95%;
+  height: 95%;
+}
+
+.cat-content {
+  margin-left: 0;
+}
+
+.cat-content > h3 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.shooting-location {
+  font-size: 15px;
+}
+
+.explain-photo {
+  font-size: 15px;
+  text-align: left;
+  line-height: normal;
+}
+
+.wordwrap-none {
+  display: none;
+}
+
+/* お問い合わせ */
+
+#contact-space {
+  max-width: 640px;
+  width: 80%;
+  overflow: hidden;
+}
+
+#contact-space tr > * {
+  display: block;
+  border-style: none;
+}
+
+#contact-space tr:last-child {
+  height: 100%;
+}
+
+#contact-space th {
+  width: auto;
+  padding: 20px;
+}
+
+#contact-space td {
+  padding : 15px 20px;
+}
+
+#contact-space td > * {
+  width: 100%;
+}
+
+.select-choice {
+  width: 100%;
+}
+
+.input-name {
+  border: 1px solid rgb(220,220,220);
+}
+
+}
